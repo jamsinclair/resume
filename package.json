@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "The source code for my online resume",
+  "author": "James Sinclair <jamsinclairnz@gmail.com>",
+  "scripts": {
+    "styles": "node-sass ./main.scss ./main.css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^3.13.0",
+    "normalize.css": "^5.0.0",
+    "tachyons": "^4.5.6"
+  }
+}
