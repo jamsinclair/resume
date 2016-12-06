@@ -6644,6 +6644,26 @@ code, .code {
   .v-btm-l {
     vertical-align: bottom; } }
 
-html,
-body {
-  background: #f5f5f5; }
+.btn {
+  border-top-width: 0; }
+
+.brn {
+  border-right-width: 0; }
+
+.bbn {
+  border-bottom-width: 0; }
+
+.bln {
+  border-left-width: 0; }
+
+@media print {
+  a {
+    text-decoration: none; }
+  .bb {
+    border-bottom-width: .125rem; }
+  .w-50-l {
+    width: 50%; }
+  .pr3-l {
+    padding-right: 1rem; }
+  .pl3-l {
+    padding-left: 1rem; } }
