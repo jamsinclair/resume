@@ -4,13 +4,21 @@
   "description": "The source code for my online resume",
   "author": "James Sinclair <jamsinclairnz@gmail.com>",
   "scripts": {
-    "styles": "node-sass ./main.scss ./main.css"
+    "styles": "node-sass ./main.scss ./main.css",
+    "scripts": "browserify ./main.js -o ./main.bundle.js",
+    "compress": "uglifyjs ./main.bundle.js --compress --mangle -o ./main.bundle.min.js",
+    "build": "yarn run styles && yarn run scripts && yarn run compress"
   },
   "license": "MIT",
   "dependencies": {
+    "browserify": "^13.3.0",
     "node-sass": "^3.13.0",
     "normalize.css": "^5.0.0",
-    "tachyons": "^4.5.6"
+    "tachyons": "^4.5.6",
+    "uglify-js": "^2.7.5",
+    "vex-dialog": "^1.0.6",
+    "vex-js": "^3.0.0",
+    "whatwg-fetch": "^2.0.1"
   },
   "private": true
 }
