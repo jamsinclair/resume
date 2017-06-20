@@ -7536,8 +7536,6 @@ code, .code {
 @media print {
   h1.mt4 {
     margin-top: 0; }
-  a {
-    text-decoration: none; }
   .bb {
     border-bottom-width: .125rem; }
   .w-50-l {
