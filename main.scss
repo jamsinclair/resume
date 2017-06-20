@@ -20,6 +20,10 @@
 
 // Overrides for printable resume
 @media print {
+  h1.mt4 {
+    margin-top: 0;
+  }
+
   a {
     text-decoration: none;
   }
