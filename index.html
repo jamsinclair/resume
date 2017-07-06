@@ -17,6 +17,7 @@
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-49892729-6', 'auto');
+      if (window.navigator.sendBeacon) ga('set', 'transport', 'beacon');
       ga('send', 'pageview');
     </script>
 
