@@ -20,6 +20,10 @@
 
 // Overrides for printable resume
 @media print {
+  html {
+    font-size: 14px;
+  }
+
   h1.mt4 {
     margin-top: 0;
   }
